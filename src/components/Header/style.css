@@ -1,0 +1,22 @@
+.header_container {
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: var(--title);
+  font-size: var(--title-size);
+}
+span {
+  color: var(--red);
+  font-weight: 700;
+  font-size: var(--p-size);
+}
+
+p {
+  max-width: 720px;
+}
