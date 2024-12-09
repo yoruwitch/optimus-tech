@@ -1,0 +1,11 @@
+.metric h1 {
+  color: var(--red);
+  margin: 0;
+}
+h3 {
+  color: var(--title);
+}
+
+.metric {
+  text-align: center;
+}
