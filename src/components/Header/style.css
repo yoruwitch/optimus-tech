@@ -7,16 +7,16 @@
   text-align: center;
 }
 
-h1 {
+.header_container h1 {
   color: var(--title);
   font-size: var(--title-size);
 }
-span {
+.header_container span {
   color: var(--red);
   font-weight: 700;
   font-size: var(--p-size);
 }
 
-p {
+.header_container p {
   max-width: 720px;
 }

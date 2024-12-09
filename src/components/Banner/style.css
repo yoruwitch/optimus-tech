@@ -1,0 +1,28 @@
+.banner_container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.banner_container img {
+    max-width: 85%;
+}
+
+.banner_container span {
+    font-weight: 00;
+    color: var(--red);
+    background-color: rgba(142, 36, 36, 0.1);
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.banner_container h3 {
+  font-size: 36px;
+  color: var(--title);
+}
+
+.banner_container p {
+    margin-bottom: 50px;
+}

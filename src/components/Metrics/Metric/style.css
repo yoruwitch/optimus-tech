@@ -1,11 +1,13 @@
 .metric h1 {
   color: var(--red);
   margin: 0;
+  font-size: var(--title-size);
 }
-h3 {
+.metric h3 {
   color: var(--title);
+  font-weight: 500;
 }
 
-.metric {
-  text-align: center;
+.metric  {
+  max-width: 260px;
 }

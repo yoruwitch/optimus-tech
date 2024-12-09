@@ -6,7 +6,6 @@
 
     --p-size: 16px;
     --title-size: 48px;
-
 }
 :root {
     margin: 0;
@@ -15,6 +14,10 @@
     font-family: "Inter", sans-serif;
     font-size: var(--p-size);
     color: var(--primary-color);
+}
+body {
+    width: 100%;
+    margin: 0;
 }
 
 li {
@@ -25,4 +28,8 @@ li {
 a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+h3 {
+    margin: 0;
 }
