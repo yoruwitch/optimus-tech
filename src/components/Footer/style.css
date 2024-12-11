@@ -1,0 +1,45 @@
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f9fafb;
+    padding: 20px;
+}
+
+footer h3 {
+    color: var(--title);
+    font-size: 36px;
+    margin: 10px 0 20px 0;
+}
+
+footer form {
+  margin: 30px auto;
+}
+
+footer #email {
+    border-radius: 10px;
+    border: 1px solid #d0d5dd;
+    width: 300px;
+    height: 28px;
+    padding: 10px;
+    background-color: var(--base-white);
+}
+
+.ad_email {
+    color: #667085;
+}
+
+footer button {
+    background-color: var(--red);
+    color: var(--base-white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.copyright {
+    color: #98a2b3;
+}
