@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# Landing Page - Optimus Tech 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **Landing Page** project developed as part of the [#7DaysOfCode](https://7daysofcode.io/) challenge by **Alura**. The design for this project was based on the [Figma prototype](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1&utm_medium=email&_hsmi=231337026&utm_content=231337026&utm_source=hs_automation).  
 
-Currently, two official plugins are available:
+## Project Overview 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my **first landing page built using React and TypeScript**, marking an exciting milestone in my learning journey! The page is currently static but lays the foundation for future enhancements.  
 
-## Expanding the ESLint configuration
+### Features:
+- Responsive layout following the Figma design.
+- Developed using **React** and **TypeScript** for type-safe and scalable code.
+- Organized file structure for easy maintenance.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Future Plans:
+- Integrate a mock API to handle form submissions.
+- Add interactivity and dynamic data handling.  
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used 🛠️
+- **React**: Front-end framework for building reusable UI components.
+- **TypeScript**: For enhanced developer experience and code reliability.
+- **HTML/CSS**: Styling and layout based on the provided Figma design.
+- **Vite**: Lightning-fast tool for project setup and development.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Screenshots 📸
+![Landing Page Screenshot](/screenshots/1.jpg)
+![Landing Page Screenshot](/screenshots/2.jpg)
+![Landing Page Screenshot](/screenshots/3.jpg)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Acknowledgments 🙌
+- **Alura** for the amazing challenge and resources.
+- The design inspiration from the [Figma prototype](https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Feel free to fork, clone, or contribute! ⭐
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+Made with ❤️ by Evelyn
