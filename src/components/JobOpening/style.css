@@ -1,0 +1,12 @@
+.job_opening_container {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+
+.job_opening_container h3 {
+  color: var(--title);
+  margin-top: 50px;
+}
